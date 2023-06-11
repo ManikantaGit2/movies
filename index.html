@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Reviews</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>MOVIE REVIEWS</h1>
+        <p class="movie">Movie Title</p>
+        <input type="text" class="user-input" id="titleInput" placeholder="Enter a Movie Name">
+        <div>
+        <p class="movie">Your Review</p>
+        <textarea class="review-textarea" id="reviewTextarea" rows = "8" placeholder="Enter Your Review"></textarea>
+    
+    </div>
+    <button class="button" id="addBtn" onclick="onAddReview()">Add</button>
+    </div>
+    <div class="col" id="reviewsContainer"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

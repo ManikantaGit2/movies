@@ -1,0 +1,35 @@
+.main {
+    height: 500px;
+    width: 400px;
+    margin-left: 100px;
+}
+.user-input {
+    height: 30px;
+    width: 200px;
+    border-radius: 8px;
+    border-color: rgb(144, 164, 164);
+    border-style: solid;
+}
+
+.movie {
+    font-weight: bold;
+    
+}
+.button {
+    background-color: rgb(77, 77, 227);
+    color: white;
+    border-radius: 8px;
+    margin-top: 5px;
+    height: 35px;
+    width: 50px;
+    border-style: solid;
+    border-color: azure;
+    margin-left: 200px;
+}
+.review-textarea {
+    border-radius: 3px;
+    border-color: aqua;
+    border-width: 2px;
+    width: 250px;
+    padding-top: 7px;
+}
